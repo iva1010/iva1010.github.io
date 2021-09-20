@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iva1010</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/58352066?v=4" type="image/png">
+</head>
+
+<body>
+<div id="loading">
+    <div id="spinner"></div>
+</div>
+<div id="profile">
+    <div id="profile_img" style="background:  url(pics/me.jpg) center;"> </div>
+    <div id="username"><span style="display:block;">Иванников Александр</span></div>
+    <div id="userbio" style="display: none;">undefined</div>
+    <div id="about">
+        <span style="display:block;"><i class="fas fa-phone"></i>&nbsp;  +7 (996) 501 68 00</span>
+        <span style="display:block;"><i class="fas fa-envelope"></i>&nbsp;  contact@iva-g.cc</span>
+        <span style="display:block;"><i class="fas fa-globe-americas"></i>&nbsp; <a href="https://iva-g.cc">https://iva-g.cc</a></span>
+        <span style="display:block;"><i class="fas fa-link"></i>&nbsp; <a href="https://github.com/iva1010">https://github.com/iva1010</a></span>
+        <span style="display:block;"><i class="fas fa-map-marker-alt"></i>&nbsp; Новосибирск, Россия</span>
+        <span style="display:block;"><i class="fas fa-user-tie"></i>&nbsp; Возраст: 21 год</span>
+    </div>
+</div>
+
+<div id="display">
+    <div id="about_me" class="about">
+        <h1>
+            О себе
+        </h1>
+
+        <h2>
+            Образование
+        </h2>
+
+        <p>
+            В данный моменте получаю высшее образование в Сибирском Государственном
+            Универсетете Телекоммуникаций и Информатики,  <b>студент 4-го курса</b>
+            , направление: 10.05.02 "Информационная безопасность телекоммуникационных систем",
+            2018-2024 гг.
+        </p>
+
+        <p>
+            Среднее <b>общее</b>, окончил МБОУ "СОШ №12", 2007-2018 гг.
+        </p>
+
+        <!--        <h2>-->
+        <!--            Жедаемая доолжность-->
+        <!--        </h2>-->
+
+        <!--        <p>-->
+        <!--            <b>Программист-стажер C </b>-->
+        <!--        </p>-->
+
+        <h2>
+            Технологический стек
+        </h2>
+
+        <div class="stack">
+            <div class="stack_el">
+                <img src="pics/c.svg">
+                <p>
+                    C
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/internet.svg">
+                <p>
+                    TCP/IP
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/bash.svg">
+                <p>
+                    Bash/Shell
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/linux.svg">
+                <p>
+                    Linux
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/git.svg">
+                <p>
+                    Git
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/angular.svg">
+                <p>
+                    Angular
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/html5.svg">
+                <p>
+                    HTML5
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/css.svg">
+                <p>
+                    SCC3
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/js.svg">
+                <p>
+                    Java Script
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/ts.svg">
+                <p>
+                    Typescript
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/gnuradio_logo.svg">
+                <p>
+                    GNU Radio
+                </p>
+            </div>
+            <div class="stack_el">
+                <img src="pics/great-scott-gadgets.png.webp">
+                <p>
+                    HackRF
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <h2>
+            Опыт работы / Курсы
+        </h2>
+
+        <div class="projects" id="work_section" style="position: relative; height: 438.398px;">
+            <a target="_blank" style="position: absolute; transform: translate(23px);">
+                <section class="favorite">
+                    <div class="section_title">
+                        ЗАО "Центр Финансовых Технологий"
+                    </div>
+                    <div class="about_section">
+                        <span style="display:block;">
+                            Junior <b>Front-end</b> Angular разработчик (Стажер)<br><br>
+                            Работал над проектами <b>CFT-SED</b> и <b>Worktime</b><br>
+                            В данных проектах верстал страницу для загрузки граффика работы,
+                            реализовывал механику таскбара.
+                        </span>
+                    </div>
+                    <div class="bottom_section">
+                        <span style="display:inline-block;"><i class="fas fa-calendar-alt"></i>&nbsp; Октябрь 2020 — Август 2021 гг.</span>
+                    </div>
+                </section>
+            </a>
+
+            <a target="_blank">
+                <section class="favorite_to">
+                    <div class="section_title">
+                        Летняя Школа ELTEX
+                    </div>
+                    <div class="about_section">
+                                <span style="display:block;">
+                                    <b>Студент</b>, участвоввал в проеке VLAN-Tagger<br><br>
+                                    В данном проекте реализовывал парсинг файла конфигурации при помощи библиотеки json-c, <br>
+                                    а также реализация структуры данных для хранения необходимых параметров.
+                                </span>
+                    </div>
+                    <div class="bottom_section">
+                        <span style="display:inline-block;"><i class="fas fa-calendar-alt"></i>&nbsp; Июнь 2021 —  Сентябрь 2021 гг.</span>
+                    </div>
+                </section>
+            </a>
+
+        </div>
+    </div>
+
+    <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+    </div>
+
+    <div id="other" class="about">
+        <h1>
+            Прочее
+        </h1>
+        <div id="other1" class="other">
+            <p>
+                Во время последних четырех лет обучения по специальности, которая связана с информационной безопасностью,
+                активно работал с различным SDR оборудованием, в частности с HackRF ONE, а также с различным ПО, которе покрывает
+                весь спектр необходимых задач.<br><br>
+
+                На базе данного приемника реализовывал различные проекты, которые позволяют работать
+                с радиоэфиром. Например, можно просто принимать сигнал или же наоборот транслировать его на желаемой частоте, также в рамках
+                работы с данным оборудованием работал с RDS, OFDM, занимался проверкой устройств на восприимичивость к replay атакам.<br><br>
+
+                В кечестве хобби участвовал в различных CTF соревнованиях.<br><br>
+
+                Сейчас разрабатываю программу для работы с сетевым реле USR-R16-T. Суть данного приложения будет заключаться в том, чтобы
+                можно было удобно управлять всеми платами, которые находятся в одной сети.
+                Например, включать или отключать все модули реле или же управлять каждым в отдельности. Настраивать таймер включения и отключения.
+
+            </p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/imfunniee" class="thx">design by imfunniee</a>
+    </div>
+
+</div>
+<script type="text/javascript">
+    setTimeout(function () {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function () {
+            document.getElementById("loading").classList.remove("animated");
+            document.getElementById("loading").classList.remove("fadeOut");
+            document.getElementById("loading").style.display = "none";
+        }, 800);
+    }, 1500);
+</script>
+
+<script>
+    const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+    });
+
+    const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+    });
+
+    $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+    });
+</script>
+
+</body>
+
+<script>
+
+    let req = new XMLHttpRequest()
+
+    $(".section_title").toArray().forEach(
+        (project) => {
+            let repoName = project.firstChild.textContent.toString()
+            let block = project.parentElement
+
+            req.open('GET', 'https://api.github.com/repos/iva1010/' + repoName, false)
+            req.send()
+
+
+            let stars = JSON.parse(req.responseText).stargazers_count
+            let fork = JSON.parse(req.responseText).network_count
+
+            if (stars === undefined || fork === undefined) return
+
+            console.log(block.lastElementChild.children[1].lastChild.data)
+
+            block.lastElementChild.children[1].lastChild.textContent = "   " + stars
+            block.lastElementChild.children[2].lastChild.textContent = "   " + fork
+
+        })
+
+</script>
+
+</html>
